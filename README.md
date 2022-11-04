@@ -1,6 +1,7 @@
 # Unsupervised Tissue Segmentation via Deep Constrained Gaussian Network
 This is the official implementation of the paper "Unsupervised Tissue Segmentation via Deep Constrained Gaussian Network".    
-For more information about nnU-Net, please read the following paper:
+For more information about nnU-Net, please read the following paper:  
+![image](https://github.com/Nandayang/Deep-Constrained-Gaussian-Network/blob/main/figs/FIG1.tif)
 
 
     Nan Y, Tang P, Zhang G, et al. Unsupervised Tissue Segmentation via Deep Constrained Gaussian Network[J]. 
