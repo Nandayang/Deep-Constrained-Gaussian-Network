@@ -1,0 +1,6 @@
+tensorflow-estimator      2.5.0                    
+tensorflow-gpu            2.5.0                    
+tensorflow-probability    0.13.0
+opencv-python             3.4.10.37
+cudatoolkit               11.2.2
+cudnn                     8.1.0.77
