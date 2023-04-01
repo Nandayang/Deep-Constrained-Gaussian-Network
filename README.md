@@ -11,3 +11,4 @@ For more information about nnU-Net, please read the following paper:
 
 Please cite this paper if you are using it for your research.
 
+![image](https://github.com/Nandayang/Deep-Constrained-Gaussian-Network/blob/main/figs/SFig1.jpg)
