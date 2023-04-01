@@ -48,7 +48,6 @@ if __name__ == '__main__':
         with tf.GradientTape() as tape:
             losses, mu, cov, alpha, newgamma = network(batch_X, training=True, epoch=epoch, step=step, mu_previous=mu_pre,
                                              cov_previous=cov_pre, alpha_previous=alpha_pre)
-            # lossL2 = tf.reduce_sum([tf.nn.l2_loss(v) for v in network.trainable_variables if 'kernel' in v.name]) * 0.0005
             final = losses
         gradients = tape.gradient(target=final, sources=network.trainable_variables)
         optimizer.apply_gradients(grads_and_vars=zip(gradients, network.trainable_variables))
@@ -115,12 +114,10 @@ if __name__ == '__main__':
                 for i in range(config.ClusterNo):
                     segment_results[segment_results==i] = 100 * i
                 img_numpy = (img.numpy().squeeze()).astype(np.uint8)
-                # cv2.imwrite(config.valid_visualize_path+'{}/{}.png'.format(epoch, step), img_numpy)
-                cv2.imwrite(config.valid_visualize_path+'{}/{}'.format(epoch, real_fid),
-                            segment_results.astype(np.uint8))
-                # evaluate metrics
+                cv2.imwrite(config.valid_visualize_path+'{}/{}'.format(epoch, real_fid), segment_results.astype(np.uint8))
+                
+                # evaluate metrics, gt is only used for evaluate
                 if config.val_dice:
-
                     gt = cv2.imread('./data/cells/valid/masks/' + real_fid, 0)
                     gt = cv2.resize(gt, (config.img_size, config.img_size))
                     _, thresh = cv2.threshold(gt, 125, 255, cv2.THRESH_BINARY)
