@@ -40,7 +40,7 @@ if __name__ == '__main__':
     best_dice = 0
     save_dice = 0.74
 
-    if 1:
+    if config.load_weights:
         network.load_weights(filepath="./log/DGMN_lasso/weights/epoch-76-0.743.ckpt")
         print("load successful")
 
