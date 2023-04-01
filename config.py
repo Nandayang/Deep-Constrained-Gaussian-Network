@@ -31,6 +31,7 @@ class config:
     save_model_dir = log_path + 'weights/'
     l2weight = 0.001
     val_dice = True
+    load_weights = True
 
 
 #supervised
