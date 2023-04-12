@@ -1,8 +1,8 @@
 # Unsupervised Tissue Segmentation via Deep Constrained Gaussian Network
+This is the official implementation of the paper "Unsupervised Tissue Segmentation via Deep Constrained Gaussian Network".    
 
 ![image](https://github.com/Nandayang/Deep-Constrained-Gaussian-Network/blob/main/figs/FIG1.jpg)
 
-This is the official implementation of the paper "Unsupervised Tissue Segmentation via Deep Constrained Gaussian Network".    
 For more information about the DCGN, please read the following paper:  
 
 
