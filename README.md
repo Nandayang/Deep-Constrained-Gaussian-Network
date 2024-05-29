@@ -4,6 +4,7 @@ This is the official implementation of the paper "Unsupervised Tissue Segmentati
 ## Updates
 The Pytorch version will be available soon
 
+## Abstract
 ![image](https://github.com/Nandayang/Deep-Constrained-Gaussian-Network/blob/main/figs/FIG1.jpg)
 
 For more information about the DCGN, please read the [following paper](https://ieeexplore.ieee.org/document/9844771), [arxiv version](https://arxiv.org/abs/2208.02912):  
