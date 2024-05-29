@@ -5,8 +5,7 @@ This is the official implementation of the paper "Unsupervised Tissue Segmentati
 
 For more information about the DCGN, please read the [following paper](https://ieeexplore.ieee.org/document/9844771), [arxiv version](https://arxiv.org/abs/2208.02912):  
 
-    Nan Y, Tang P, Zhang G, et al. Unsupervised Tissue Segmentation via Deep Constrained Gaussian Network[J]. 
-    IEEE Transactions on Medical Imaging, 2022. 
+    Nan Y, Tang P, Zhang G, et al. Unsupervised tissue segmentation via deep constrained gaussian network[J]. IEEE Transactions on Medical Imaging, 2022, 41(12): 3799-3811. 
 
 
 
